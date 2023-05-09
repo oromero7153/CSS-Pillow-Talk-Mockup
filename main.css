@@ -6,7 +6,7 @@
  *********************************/
 /* give each element a border */
 * {
-    border: 1px solid mediumvioletred;
+    outline: 1px solid mediumvioletred;
 }
 
 /* shrink images for placement */
@@ -37,3 +37,14 @@ h2 {
 h1 {
     font-family: 'Fredoka One', cursive;
 }
+/*********************************
+ * Header
+ *********************************/
+ header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }                  
+ 
